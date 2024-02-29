@@ -1,4 +1,4 @@
-export class CreateEventDto {
+export class UpdateEventDto {
   readonly name: string;
   readonly date: Date;
   readonly time: string;
