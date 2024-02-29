@@ -7,10 +7,10 @@ The code for this application is split into two repos, one for the server and on
 From the parent directory, run
 
 ```bash
-$ cd client
+$ cd reactjs-calendar-client
 $ npm install
 $ npm run build
-$ cd ../server
+$ cd ../nestjs-calendar-server
 $ npm install
 $ npm run start
 ```
