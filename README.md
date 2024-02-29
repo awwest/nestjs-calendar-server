@@ -15,6 +15,8 @@ $ npm install
 $ npm run start
 ```
 
+Navigate to localhost:3000 in the browser.
+
 Changes to the React application will not show up until it is built, as NestJS is serving the build file. Running the React application in development mode will not connect to the server.
 
 This application does not yet feature user authentication, so it only provides support for one global user. Authentication with JSON Web Tokens and Passport is planned to support multiple users.
