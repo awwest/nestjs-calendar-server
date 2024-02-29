@@ -2,7 +2,11 @@
 
 A basic Calendar application using NestJS, Mongoose, and React.
 
-The code for this application is split into two repos, one for the server and one for the client. Each repo will need to be downloaded to the same containing directory, so that client and server directories are siblings.
+The code for this application is split into two repos, one for the server and one for the client. 
+
+The companion repo can be found at https://github.com/awwest/reactjs-calendar-client.
+
+Each repo will need to be downloaded to the same containing directory, so that client and server directories are siblings.
 
 From the parent directory, run
 
