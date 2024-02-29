@@ -7,8 +7,6 @@ import { EventsModule } from './events/events.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ScheduleModule } from '@nestjs/schedule';
 // import { MailerModule } from '@nestjs-modules/mailer';
-import { UserModule } from './user/user.module';
-import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -20,8 +18,6 @@ import { AuthModule } from './auth/auth.module';
     EventsModule,
     MongooseModule.forRoot('mongodb://localhost/nest'),
     ScheduleModule.forRoot(),
-    UserModule,
-    AuthModule,
     // MailerModule.forRoot({
     //   transport: 'smtps://user@domain.com:pass@smtp.domain.com',
     // }),
