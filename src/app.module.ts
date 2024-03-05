@@ -11,7 +11,7 @@ import { ScheduleModule } from '@nestjs/schedule';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', '..', 'client', 'build'),
+      rootPath: join(__dirname, '..', '..', 'reactjs-calendar-client', 'build'),
       renderPath: '/*',
       exclude: ['/api/(.*)'],
     }),
